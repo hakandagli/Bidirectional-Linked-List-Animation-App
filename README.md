@@ -1,4 +1,4 @@
-# Çift Yönlü Bağli Liste Projesi
+# Çift Yönlü Bağli Liste Oluşumunu Gösteren Animasyon
 ### Ders: Veri Yapilari
 ### Proje Tanıtım
 Bağlı liste nasıl oluşturulur ? Bağlı liste arasına nasıl eleman eklenir ? Sorularına yanıt bulmak.
