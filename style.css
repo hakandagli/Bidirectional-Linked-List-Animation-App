@@ -13,18 +13,21 @@ body{
     background-size: cover;
     background-position:left;
 }
+
 .container{
     padding-left:20px;
 }
 
-.aciklama{
+.description{
     color:white;
 }
+
 .title{
     color:white;
     font-size:40px;
     padding-left:30px;
 }
+
 .head{
     width: 30px;
     height: 60px;
@@ -32,19 +35,23 @@ body{
     background-color: #B4EEFC;
     margin-left:150px;
 }
+
 .ok{
     font-size:30px;
 }
-.kutu-container{
+
+.box-container{
     display:flex;
     flex-direction: row;
 }
-.kutulars{
+
+.boxes{
     display:flex;
     flex-direction: row;
     padding-left:80px;
 }
-.kutu{
+
+.box{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -56,13 +63,15 @@ body{
     font-size:35px;
     margin-right:80px;
 }
-.ilerilers{
+
+.nexts{
     display: flex;
     flex-direction: row;
     padding-left:140px;
     position: relative;
     bottom:25px;
 }
+
 .next{
    height:20px;
    min-width: 80px;
@@ -72,13 +81,15 @@ body{
    color:white;
    font-size:20px;
 }
-.gerilers{
+
+.prevs{
     display: flex;
     flex-direction: row;
     padding-left:60px;
     position: relative;
     top:25px;
 }
+
 .prev{
     height:20px;
     min-width: 80px;
@@ -88,22 +99,26 @@ body{
     color:white;
     font-size:20px;
 }
+
 .iter-container{
      display: flex;
      flex-direction: row;
  }
+
 .iterlers{
     display:flex;
     flex-direction: row;
     padding-left:20px;
 }
+
 .iter{
     width: 25px;
     height: 60px;
     background-color:orange;
     text-align:center;
 }
-.bosluk{
+
+.space{
     width: 135px;
     height:40px;
 }
@@ -144,8 +159,8 @@ body{
     font-size:20px;
     color:#262c3a;
     transition: all .3s ease;
-    width: 100px;
     border:3px solid #262c3a;
+    box-shadow: 5px 5px 5px rgba(200,200,200,.4);
 }
 
 .btn-2{
@@ -176,7 +191,7 @@ body{
     border:3px solid white;
 }
 
-#kumanda{
+#command{
     padding:20px;
 }
 

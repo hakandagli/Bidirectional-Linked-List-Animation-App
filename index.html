@@ -1,43 +1,36 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cift Yonlu Bagli Liste | Veri Yapilari Dersi</title>
+    <title>Bidirectional linked list | Data structures </title>
 </head>
-    
+
 <body>
     <div id="hakan-container">
         <div class="container">
-            <div id="kumanda2">
-                <div class="aciklama">Eleman sayısını giriniz</div>
-                <input id="myNumber" type="number" min="1" value="8" class="input1">
-                <div class="aciklama">Hızı giriniz(ms) Önerilen:500</div>
-                <input id="speed" type="number" min="1" class="input1" value="500" placeholder="hız(ms)">
-
-                <button id="button" class="btn">Oluştur</button>
-                <a href="" class="btn-2">Yenile</a>
-
+            <div id="command2">
+                <div class="description">Enter the number of elements</div>
+                <input id="myNumber" type="number" min="1" value="4" class="input1">
+                <div class="description">Enter Speed Value(ms) </div>
+                <input id="speed" type="number" min="1" class="input1" value="50" placeholder="speed(ms)">
+                <button id="button" class="btn">Create List</button>
+                <a href="" class="btn-2">Refresh</a>
             </div>
-            <div class="title">Liste 1</div>
-
+            <div class="title">List 1</div>
             <div class="head">
                 <div>head</div>
                 <div class="ok">↓</div>
             </div>
-
-            <div id="geriler" class="gerilers"></div>
-
-            <div class="kutu-container">
+            <div id="prevs" class="prevs"></div>
+            <div class="box-container">
                 <div class="null">NULL</div>
-                <div id="kutular" class="kutulars"></div>
+                <div id="boxes" class="boxes"></div>
                 <div class="null">NULL</div>
             </div>
-
-            <div id="ileriler" class="ilerilers"></div>
-
+            <div id="nexts" class="nexts"></div>
             <div class="iter-container">
                 <div id="iterler" class="iterlers"></div>
                 <div class="iter">
@@ -46,7 +39,6 @@
                 </div>
             </div>
         </div>
-
         <div class="iter-container container">
             <div id="iterbiterler" class="iterlers"></div>
             <div class="temp">
@@ -54,30 +46,24 @@
                 <div>temp</div>
             </div>
         </div>
-
-        <div id="kumanda">
-            <input type="number" placeholder="bulunacak değer" id="bul" class="input2">
-            <input type="number" placeholder="eklenecek değer" id="eklenecek" class="input2">
-            <button id="button-2" class="btn">Ekle</button>
+        <div id="command">
+            <input type="number" placeholder="value to be found" id="willBeFoundValue" class="input2">
+            <input type="number" placeholder="value to add" id="willBeAddValue" class="input2">
+            <button id="button-2" class="btn">Add</button>
         </div>
-
         <div class="container" id="container-2">
-            <div class="title">Liste 2</div>
+            <div class="title">List 2</div>
             <div class="head">
                 <div>head</div>
                 <div class="ok">↓</div>
             </div>
-
-            <div id="geriler2" class="gerilers"></div>
-
-            <div class="kutu-container">
+            <div id="prevs2" class="prevs"></div>
+            <div class="box-container">
                 <div class="null">NULL</div>
-                <div id="kutular2" class="kutulars"></div>
+                <div id="boxes2" class="boxes"></div>
                 <div class="null">NULL</div>
             </div>
-
-            <div id="ileriler2" class="ilerilers"></div>
-
+            <div id="nexts2" class="nexts"></div>
             <div class="iter-container">
                 <div id="iterler2" class="iterlers"></div>
                 <div class="iter">
@@ -87,8 +73,8 @@
             </div>
         </div>
     </div>
-
-    <script type="text/javascript" src="ekleme.js"></script>
+    <script type="text/javascript" src="add.js"></script>
     <!--HAKAN DAĞLI-->
 </body>
+
 </html>
