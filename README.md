@@ -9,5 +9,6 @@ Ardından oluşturulan listeden, sonuna eleman eklemek istediğimiz düğümün 
 Ekleme işleminin nasıl gerçekleştiğini gösteren 2. animasyonumuzu da izledikten sonra uygulamamız görevini gerçekleştirmiş oluyor.
 ### Çift Yönlü Bağlı Liste Nedir ?
 Bağlı listelerde bir düğüm kendisinden sonra gelen düğümün adres bilgisini ve kendisinden önceki düğümün adres bilgisini içerebilir. Bu şekilde bir yapıya sahip bağlı listelere çift yönlü bağlı liste (Doubly Linked List) denir.
-
+## Project Link
+[Project Link](https://prismatic-croquembouche-cdd21a.netlify.app/)
 
